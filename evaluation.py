@@ -58,7 +58,7 @@ report = generate_report(metrics)
 # Create the 'results' directory if it doesn't exist
 os.makedirs("results", exist_ok=True)
 
-with open("results/evaluation_report.json", "w") as f:
+with open("results/evaluation_report(1).json", "w") as f:
     json.dump(report, f, indent=2)
 
 print("Evaluation Complete. Report saved to results/evaluation_report.json")
