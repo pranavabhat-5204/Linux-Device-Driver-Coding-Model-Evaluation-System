@@ -1,0 +1,35 @@
+{
+  "metrics": {
+    "compilation": {
+      "success_rate": 1.0,
+      "warnings_count": 0,
+      "errors_count": 0
+    },
+    "functionality": {
+      "basic_operations": 0.9,
+      "error_handling": 0.75,
+      "edge_cases": 0.6
+    },
+    "security": {
+      "buffer_safety": 0.95,
+      "race_conditions": 0.8,
+      "input_validation": 0.7
+    },
+    "code_quality": {
+      "style_compliance": 0.88,
+      "documentation": 0.65,
+      "maintainability": 0.75
+    },
+    "performance": {
+      "efficiency": 0.9
+    },
+    "overall_score": 87.9
+  },
+  "overall_score": 95.3,
+  "error_handling": 0.7,
+  "edge_cases": 0.6,
+  "race_conditions": 0.8,
+  "input_validation": 0.75,
+  "documentation": 0.6,
+  "maintainability": 0.7
+}
