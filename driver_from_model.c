@@ -35,17 +35,3 @@ int dev_write(const char *buffer, size_t length, size_t *offset) {
     *offset += length;
     return length;
 }
-int main() {
-    size_t offset = 0;
-    char buffer[100];
-
-    dev_open();
-    dev_write("Hello from driver!", 18, &offset);
-    offset = 0;
-    dev_read(buffer, 18, &offset);
-    buffer[18] = '\0';
-
-    printf("Device buffer read: %s\n", buffer);
-    dev_release();
-    return 0;
-}
