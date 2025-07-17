@@ -1,10 +1,10 @@
-from tools.compile_check import compile_driver
-from tools.static_analyzer import run_cppcheck
-from tools.scorer import generate_report
+from tools.compile import compile_driver
+from tools.analyzer import run_cppcheck
+from tools.score import generate_report
 import json
 import os
 
-source = "/content/driver_from_model.c"
+source = "driver_from_model.c"
 
 compile_metrics = compile_driver(source)
 static_metrics = run_cppcheck(source)
