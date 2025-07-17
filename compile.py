@@ -12,5 +12,5 @@ def compile_driver(source_path):
     }
 
 if __name__ == "__main__":
-    res = compile_driver("../generated_code/driver_from_model.c")
+    res = compile_driver("driver_from_model.c")
     print(res)
