@@ -1,6 +1,6 @@
-from tools.compile import compile_driver
-from tools.analyzer import run_cppcheck
-from tools.score import generate_report
+from compile import compile_driver
+from analyzer import run_cppcheck
+from score import generate_report
 import json
 import os
 
